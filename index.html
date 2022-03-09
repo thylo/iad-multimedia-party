@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IAD - Multimedia party</title>
+    <link href="/styles/main.css" rel="stylesheet" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"
+    ></script>
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <canvas class="c-canvas js-canvas"></canvas>
+    <header class="c-header l-container">
+      <svg
+        viewBox="0 0 144 72"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="iadLogo"
+        class="c-header__logo"
+      >
+        <title id="iadLogo">Institut des Arts de Diffusion</title>
+        <path
+          fill-rule="evenodd"
+          d="M2 0h12c1 0 2 1 2 2v70H2c-1 0-2-1-2-2V2c0-1 1-2 2-2zm90 2a2 2 0 0 1 2-2h14c4 0 6 0 8 2l24 24c3 4 4 6 4 10s-1 6-4 10l-24 24V48l12-12-20-20v56H94a2 2 0 0 1-2-2V2zM82 0H68c-4 0-6 0-8 2L24 38v22l44-44v40L54 41 43 52l17 18c2 2 4 2 8 2h14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+          fill="#ffffff"
+        ></path>
+      </svg>
+      <div class="c-header__titles">
+        <h1 class="c-header__title c-h1">
+          Multimédia party
+        </h1>
+        <h2 class="c-header__title c-h2">
+          Jeudi 31 mars 2022 - 18h
+        </h2>
+      </div>
+    </header>
+
+    <div class="c-hero l-container">
+      <div class="c-hero__content">
+        <h3 class="c-hero__title c-h3">
+          Bienvenue à toi, jeune ptérodactyle cyclothymique de Blankenberge
+        </h3>
+        <p>
+          Les 2 dernières années ont été éprouvantes pour toutes et tous. Pour
+          repartir du bon pied, les profs ont décidé d'organiser une soirée avec
+          (de jeunes et moins jeunes) anciennes et anciens qui nous parleront de
+          leurs parcours, de leurs expériences...
+        </p>
+      </div>
+      <div class="c-hero__media">
+        <figure class="c-hero__figure">
+          <img
+            src="/images/tv-morte.jpg"
+            alt="La TV est morte"
+            class="c-hero__img u-fluidimg js-tv"
+          />
+          <figcaption class="c-hero__caption">
+            <p>
+              "La TV est morte"
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="l-container">
+      <h2 class="c-h2">Casting</h2>
+      <ul class="c-speaker-list">
+        <li>
+          <article class="c-speaker">
+            <p class="c-speaker__media">
+              <img
+                src="/images/elodie.png"
+                alt="Elodie"
+                class="c-speaker__img u-fluidimg"
+              />
+            </p>
+            <h4 class="c-speaker__name c-h4">Elodie Buski</h4>
+            <p class="c-speaker__promo">Promo 2009</p>
+            <p class="c-speaker__description">
+              Bloggeuse, Web front-end
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article class="c-speaker">
+            <p class="c-speaker__media">
+              <img
+                src="/images/santi.png"
+                alt="Santi"
+                class="c-speaker__img u-fluidimg"
+              />
+            </p>
+            <div class="c-speaker__content">
+              <h4 class="c-h4 c-speaker__name">Santi Ploussos</h4>
+              <p class="c-speaker__promo">Promo 2008</p>
+              <p class="c-speaker__description">Creative technologist, VFX</p>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="c-speaker">
+            <p class="c-speaker__media">
+              <img
+                src="/images/christopher.jpg"
+                alt="Christopher"
+                class="c-speaker__img u-fluidimg"
+              />
+            </p>
+            <div class="c-speaker__content">
+              <h4 class="c-speaker__name c-h4">Christopher Cittadini</h4>
+              <p class="c-speaker__promo">Promo 2008</p>
+              <p class="c-speaker__description">
+                Fondateur Squarefish, animation 2D
+              </p>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="c-speaker">
+            <p class="c-speaker__media">
+              <img
+                src="/images/valentin.jpg"
+                alt="Valentin"
+                class="c-speaker__img u-fluidimg"
+              />
+            </p>
+            <div class="c-speaker__content">
+              <h4 class="c-speaker__name c-h4">Valentin Grégoire</h4>
+              <p class="c-speaker__promo">Promo 2008</p>
+              <p class="c-speaker__description">
+                Foundateur Squarefish, animation 2D
+              </p>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="c-speaker">
+            <p class="c-speaker__media">
+              <img
+                src="/images/sarah.png"
+                alt="Sarah"
+                class="c-speaker__img u-fluidimg"
+              />
+            </p>
+            <div class="c-speaker__content">
+              <h4 class="c-speaker__name c-h4">Sarah Van Dijk</h4>
+              <p class="c-speaker__promo">Promo 2018</p>
+              <p class="c-speaker__description">Artiste 3D, 3D temps réel</p>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <div class="l-container">
+      <h2 class="c-h2">En pratique</h2>
+      <dl class="c-faq">
+        <dt class="c-faq__term c-h4">Ou ?</dt>
+        <dd>Grande salle de l'IAD Blocry.</dd>
+
+        <dt class="c-faq__term c-h4">Qui ?</dt>
+        <dd>Les étudiants actuellement inscrits en multimedia.</dd>
+
+        <dt class="c-faq__term c-h4">Quand ?</dt>
+        <dd>Le jeudi 18 mars à 18h</dd>
+        <dt class="c-faq__term c-h4">Combien ?</dt>
+        <dd>Gratuit. Free. Gratis.</dd>
+      </dl>
+    </div>
+  </body>
+</html>
