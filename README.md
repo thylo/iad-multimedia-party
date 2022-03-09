@@ -1,4 +1,5 @@
-# iad-multimedia-party
+# Bienvenue à toi, jeune ptérodactyle cyclothymique de Blankenberge
+
 
 Les 2 dernières années ont été éprouvantes pour toutes et tous. Pour
 repartir du bon pied, les profs ont décidé d'organiser une soirée avec
