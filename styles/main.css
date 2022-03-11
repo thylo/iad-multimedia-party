@@ -13,7 +13,9 @@
 *:after {
   margin-top: 0;
 }
-
+a{
+  color: #acaeb1;
+}
 figure,
 figcaption {
   margin: 0;
@@ -233,4 +235,8 @@ h4 {
   left: 0;
   width: 100vw;
   height: 100vh;
+}
+
+.c-program__item{
+margin-bottom: 1rem;
 }
