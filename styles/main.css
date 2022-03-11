@@ -141,10 +141,11 @@ h4 {
   background: var(--color-white);
   margin-bottom: 0.5rem;
 }
-
-.c-faq {
-  display: grid;
-  grid-template-columns: minmax(min-content, 8rem) 1fr;
+@media (min-width: 46em) {
+  .c-faq {
+    display: grid;
+    grid-template-columns: minmax(min-content, 8rem) 1fr;
+  }
 }
 
 .c-speaker-list {
