@@ -235,8 +235,7 @@ h4 {
   left: 0;
   width: 100vw;
   height: 100vh;
+  pointer-events: none;
 }
 
-.c-program__item{
-margin-bottom: 1rem;
-}
+
