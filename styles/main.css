@@ -13,7 +13,7 @@
 *:after {
   margin-top: 0;
 }
-a{
+a {
   color: #acaeb1;
 }
 figure,
@@ -225,11 +225,53 @@ h4 {
   color: var(--color-gray-100);
 }
 
+.c-partners {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 180px);
+  gap: 2rem;
+  justify-content: center;
+}
+
+.c-partner__link {
+  display: block;
+}
+
+.c-partner__logo {
+  filter: grayscale(1);
+  transition: filter 0.2s ease-in-out;
+}
+
+.c-partner__logo:hover {
+  filter: grayscale(0);
+}
+
+.c-partner__link {
+  display: block;
+}
+
+.c-footer__inner {
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: calc(14 / 16 * 1rem);
+}
+
+.c-copyright {
+  margin: 0;
+}
+
 .u-fluidimg {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
+.u-text-center {
+  text-align: center;
+}
+
 .c-canvas {
   position: fixed;
   top: 0;
@@ -238,5 +280,3 @@ h4 {
   height: 100vh;
   pointer-events: none;
 }
-
-
